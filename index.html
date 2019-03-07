@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifesto.json"/>
+    <title>Usando PwA</title>
+</head>
+<body>
+    <P>TESTE </P>
+
+    <script>    
+        if ("serviceWorker" in navigator) {
+            if (navigator.serviceWorker.controller) {
+                    console.log("Não ha necessidade de registro");
+            } else {
+                navigator.serviceWorker
+                .register("pwabuilder-sw.js",{
+                    scope: "./"
+                }).then(function(reg){
+                    console.log("Foi registrado pelo escopo: ")
+                })      
+            }
+        }
+ 
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+    "name" : "EXPWA",
+    "short_name" : "EPWA",
+    "description" : "Criando primeiro PWA",
+    "start_url" : "/",
+    "scope" : "/",
+    "display" : "standalone",
+    "orientation" : "any",
+    "lang" : "Portuguese",
+    "icons" : []
+}
