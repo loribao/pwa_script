@@ -3,7 +3,8 @@ const cacheName = 'MeusDados';
 /**
  * Colocar as rotas aqui!
  * Para usar com nodejs
- * 
+ * apenas rotas nenhuma estenção exemplo index.html ... em caso de estar usando 
+ * o algum padrão models views controller
  */
 const cacheAssets = [
   'index.html',
