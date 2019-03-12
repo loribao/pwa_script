@@ -1,5 +1,10 @@
 const cacheName = 'MeusDados';
 
+/**
+ * Colocar as rotas aqui!
+ * Para usar com nodejs
+ * 
+ */
 const cacheAssets = [
   'index.html',
   'pagina2.html'
